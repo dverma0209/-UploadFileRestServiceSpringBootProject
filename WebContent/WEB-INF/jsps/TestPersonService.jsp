@@ -14,7 +14,7 @@
 			var requestData = $('#txtId').val(); 
 			
 			$.ajax({ 
-				url: 'http://localhost:8006/Classifieds/persons/withid',
+				url: 'http://localhost:8006/RestWebServiceSpringBasedProject/persons/withid',
 				method: 'get', 
 				data: { id: requestData }, 
 				dataType: 'json', 

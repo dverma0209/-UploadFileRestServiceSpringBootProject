@@ -13,9 +13,9 @@ public class HeaderController {
 		
 	}
 	
-	@RequestMapping("/Greeting")
+	@RequestMapping("/PersonService")
 	public String greeting(){
-		return "FirstJsp";
+		return "TestPersonService";
 		
 	}
 	
