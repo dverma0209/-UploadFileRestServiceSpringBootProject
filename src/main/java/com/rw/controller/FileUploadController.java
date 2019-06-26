@@ -26,7 +26,7 @@ public class FileUploadController {
  
 		file.transferTo(targetFile);
  
-		return filename;
+		return filename + " successfully uploaded.";
 }	
 	
 	private File getTargetFile(String fileName, String fileExtension) {
