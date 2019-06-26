@@ -8,12 +8,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-
 @SpringBootApplication
-//@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 @ComponentScan
-//@Component
-//@ImportResource("classpath*:resource/SpringWeb.xml")
 @EnableAutoConfiguration
 @Configuration
 public class App extends SpringBootServletInitializer
@@ -28,5 +24,5 @@ public class App extends SpringBootServletInitializer
 		return application.sources(App.class);
 	}
 	
-    
+	
 }
